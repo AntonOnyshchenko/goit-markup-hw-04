@@ -369,7 +369,6 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-    gap: 120px;
 }
 .footer-logo-site{
     margin-bottom: 16px;
@@ -380,12 +379,9 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
     color:var(--white-background);
     max-width: 264px;
     margin-right: 120px;
-    margin-bottom: 16px;
-    
 }
 
 .footer-social-media-text{
-
     margin-bottom: 16px;
     font-weight: 500;
 }
@@ -413,7 +409,7 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
     background-color:var(--primary-brand) ;
 }
 
-.footer-social-media-link:hover, .footer-social-media-link:active{
+.footer-social-media-link:hover,.footer-social-media-link:active{
     background-color: #31d0aa;
 }
 
