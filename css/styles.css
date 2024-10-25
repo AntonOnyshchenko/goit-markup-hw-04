@@ -410,10 +410,7 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
     background-color:var(--primary-brand) ;
 }
 
-.footer-social-media-link:hover{
-    background-color: #31d0aa;
-}
-.footer-social-media-link:active{
+.footer-social-media-link:hover,.footer-social-media-link:focus{
     background-color: #31d0aa;
 }
 
