@@ -319,7 +319,7 @@ height: 40px;
 .team-icon-link:hover{
     background-color: #404bbf;
     }
-.team-icon-focus{
+.team-icon-link:focus{
     background-color: #404bbf;
 }
 .team-icon-svg{
