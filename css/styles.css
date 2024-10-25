@@ -283,20 +283,38 @@ border-radius: 2px;
 .team-list-item{
 background-color:var(--white-background);
 border-radius: 0px 0px 4px 4px;
-box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
-            0 1 1 0 rgba(46, 47 66, 0.16),
-            0 2 1 0 rgba(46, 47 66, 0.08);;
+box-shadow: 0px 1px 6px rgba(46, 47 66, 0.08),
+            0px 1px 1px rgba(46, 47 66, 0.16),
+            0px 2px 1px rgba(46, 47 66, 0.08);;
 }
 
 
-.team-social-icon{
+.team-social-list{
     margin-top: 8px;
     padding: 0 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap:24px;
 }
 
+.team-icon-item{
+width: 40px;
+height: 40px;
+}
+
+.team-icon-link{
+    width: 100%;
+    height: 100%;
+    background-color:var(--primary-brand);
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.team-icon-svg{
+    fill:var(--light-color);
+}
 /* Our porfolio */
 
 .list-flex-portfolio{
@@ -310,7 +328,6 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
     transition-property:box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(0%);
 
 }
 
@@ -320,7 +337,9 @@ box-shadow: 0 1 6 0 rgba(46, 47 66, 0.08),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
+.list-flex-portfolio-item:hover .portfolio-list-item-overlay-text{
+        transform: translateY(0%);
+}
 .portfolio-list-item-container{
     text-align: left; 
     margin: 0;
